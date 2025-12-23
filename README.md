@@ -42,4 +42,62 @@ AI is used as a **support tool**, while final decisions remain with the user.
 ---
 
 ## 🏗️ System Architecture (MVP)
+React Frontend
+↓ REST API
+FastAPI Backend
+↓
+AI Logic (Resume Parsing & Matching)
+↓
+PostgreSQL Database
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** React
+- **Backend:** FastAPI (Python)
+- **Database:** PostgreSQL
+- **AI/NLP:** Resume parsing & text similarity
+- **Auth:** JWT-based authentication
+
+---
+
+## 📂 Project Structure
+
+ai-assisted-job-tracker/
+├── frontend/
+├── backend/
+├── docs/
+│ ├── 01-idea.md
+│ ├── 02-architecture.md
+│ ├── 03-ai-design.md
+│ └── interview-notes.md
+└── README.md
+
+---
+
+## 🚧 Project Status
+
+🟡 MVP in progress  
+- [x] Idea & architecture design  
+- [ ] Resume parsing module  
+- [ ] Job matching logic  
+- [ ] Dashboard UI  
+- [ ] Cloud deployment  
+
+---
+
+## 🎓 Learning Outcomes
+
+- AI-assisted full stack development
+- Resume parsing and NLP basics
+- Backend API design with FastAPI
+- Explainable system architecture
+- Using AI responsibly in real projects
+
+---
+
+## 📣 Interview Pitch (One Line)
+
+> “I built an AI-assisted job tracking system that parses resumes, ranks jobs using NLP-based similarity scoring, and tracks applications through an ATS-style dashboard, with full end-to-end documentation.”
 
